@@ -23,6 +23,11 @@ function pressIt() {
     // Does not accept a parameter. The function should bind a keydown event to
     // the input field of the form that alerts a user when they have pressed the
     // G key.
+
+    $(document).on('keypress', function(key) {
+        console.log(key)
+        // if (key === )
+    })
 }
 
 function submitIt() {
