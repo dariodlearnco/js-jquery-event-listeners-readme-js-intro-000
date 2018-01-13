@@ -14,8 +14,8 @@ function frameIt() {
     // Does not accept a parameter. The function should bind the load event that
     // adds the class tasty to the image to add a red frame to the image.
 
-    $('.tasty').on('load', function () {
-        $('img').css('border','1px solid red')
+    $('img').on('load', function () {
+        $('img').addClass("tasty")
     })
 }
 
