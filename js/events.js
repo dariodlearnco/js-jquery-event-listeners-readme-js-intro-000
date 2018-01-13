@@ -25,6 +25,7 @@ function pressIt() {
     // G key.
 
     $(document).on('keypress', function(key) {
+        console.log(key.which)
         if (key.which == 103) {
             window.alert('You dared to press the G key.')
         }
