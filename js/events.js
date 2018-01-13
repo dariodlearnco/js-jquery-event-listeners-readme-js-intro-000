@@ -1,6 +1,6 @@
 //define functions here
 
-function getIt() { 
+function getIt() {
     // Does not accept a parameter. The function should bind a click event to
     // the p tag. When the paragraph is clicked, the function should alert
     // "Hey!".
@@ -12,7 +12,11 @@ function getIt() {
 
 function frameIt() {
     // Does not accept a parameter. The function should bind the load event that
-    //  adds the class tasty to the image to add a red frame to the image.
+    // adds the class tasty to the image to add a red frame to the image.
+
+    $('.tasty').on('load',(){
+        $('img').css('border','1px solid red')
+    })
 }
 
 function pressIt() {
