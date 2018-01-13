@@ -15,7 +15,7 @@ function frameIt() {
     // adds the class tasty to the image to add a red frame to the image.
 
     $('img').on('load', function () {
-        $('img').addClass("tasty")
+        $('img').addClass('tasty')
     })
 }
 
