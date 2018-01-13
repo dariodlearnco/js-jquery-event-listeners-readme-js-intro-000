@@ -5,7 +5,7 @@ function getIt() {
     // the p tag. When the paragraph is clicked, the function should alert
     // "Hey!".
 
-    $('p').on('click',() {
+    $('p').on('click',() => {
         alert('Hey!')
     })
 }
