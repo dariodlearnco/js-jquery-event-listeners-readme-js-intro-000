@@ -24,7 +24,7 @@ function pressIt() {
     // the input field of the form that alerts a user when they have pressed the
     // G key.
 
-    $(document).on('keypress', function(key) {
+    $(document).on('keydown', function(key) {
         console.log(key.which)
         if (key.which == 71) {
             window.alert('You dared to press the G key.')
